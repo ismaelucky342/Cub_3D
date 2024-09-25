@@ -6,7 +6,7 @@
 #    By: danpalac <danpalac@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/02 14:34:27 by danpalac          #+#    #+#              #
-#    Updated: 2024/09/25 10:32:07 by danpalac         ###   ########.fr        #
+#    Updated: 2024/09/25 10:39:04 by danpalac         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -121,6 +121,7 @@ clean:
 
 fclean: clean
 	@$(RM) $(NAME)
+	@make fclean -sC $(LIBFT_DIR)
 	@printf "%b" "$(CYAN)[Cub_3D]:\texec. files$(DEF_COLOR)$(GREEN)  => Cleaned!$(DEF_COLOR)\n"
 
 $(LIBFT):
