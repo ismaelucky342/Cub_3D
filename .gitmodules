@@ -1,3 +1,6 @@
 [submodule "libft"]
 	path = libft
 	url = git@github.com:Leined18/Libft.git
+[submodule "minilibx-linux"]
+	path = minilibx-linux
+	url = ./minilibx-linux
