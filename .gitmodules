@@ -3,4 +3,4 @@
 	url = git@github.com:Leined18/Libft.git
 [submodule "minilibx-linux"]
 	path = minilibx-linux
-	url = ./minilibx-linux
+	url = git@github.com:42Paris/minilibx-linux.git
